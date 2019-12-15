@@ -1,0 +1,14 @@
+{
+	"pods": {
+		"Filestack": {
+			"type": "pod",
+			"id": "Filestack",
+			"spec": "~> 2.1"
+		}
+	},
+	"sources": {
+		"https://github.com/CocoaPods/Specs.git": true
+	},
+	"iosMinVersion": "11.0",
+	"useFrameworks": true
+}

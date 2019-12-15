@@ -1,0 +1,42 @@
+{
+  "_from": "git+https://github.com/stardevrk/cordova-plugin-videoupload-filestack.git",
+  "_id": "cordova-plugin-video-upload@0.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-video-upload",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/stardevrk/cordova-plugin-videoupload-filestack",
+    "rawSpec": "https://github.com/stardevrk/cordova-plugin-videoupload-filestack",
+    "saveSpec": "git+https://github.com/stardevrk/cordova-plugin-videoupload-filestack.git",
+    "fetchSpec": "https://github.com/stardevrk/cordova-plugin-videoupload-filestack.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/stardevrk/cordova-plugin-videoupload-filestack.git#838159ac3dbf221d7c31d318d089d5908b8eeb44",
+  "_spec": "https://github.com/stardevrk/cordova-plugin-videoupload-filestack",
+  "_where": "/Volumes/Work2/VideoUploaderPlugin/PluginTest-Filestack/PluginTest-1",
+  "author": {
+    "name": "RK Star"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-video-upload",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Video file upload from phone",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "ISC",
+  "name": "cordova-plugin-video-upload",
+  "version": "0.0.1"
+}
