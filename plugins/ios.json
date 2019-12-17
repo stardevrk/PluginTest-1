@@ -30,10 +30,10 @@
     }
   },
   "dependent_plugins": {
-    "cordova-plugin-cocoapod-support": {
+    "cordova-plugin-add-swift-support": {
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     },
-    "cordova-plugin-add-swift-support": {
+    "cordova-plugin-cocoapod-support": {
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     }
   }

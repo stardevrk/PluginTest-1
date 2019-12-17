@@ -2,7 +2,15 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
 
 .controller('DashCtrl', function($scope, $ionicPopup) {
   $scope.showBrowser= function() {
-    window.VideoUpload.init('AXkc2JgbsSQVuCZV9w4iBz', 'XQSOOK6NVFFYBAFORLKVXLJBSU');
+    window.VideoUpload.init(
+      {
+        key: 'AXkc2JgbsSQVuCZV9w4iBz',
+        secret: 'XQSOOK6NVFFYBAFORLKVXLJBSU',
+        region: 'us-east-1',
+        container: 'birdiefire-cv',
+        path: '/testLocation/'
+      }
+    );
     window.VideoUpload.startUpload(
       function(res) { // Upload Success
           console.log(res);

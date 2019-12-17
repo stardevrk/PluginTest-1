@@ -47,14 +47,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-video-upload": {
-    "source": {
-      "type": "registry",
-      "id": "https://github.com/stardevrk/cordova-plugin-videoupload-filestack"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-cocoapod-support": {
     "source": {
       "type": "registry",
@@ -69,6 +61,14 @@
       "id": "cordova-plugin-add-swift-support"
     },
     "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-video-upload": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/stardevrk/cordova-plugin-videoupload-filestack"
+    },
+    "is_top_level": true,
     "variables": {}
   }
 }
