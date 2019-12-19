@@ -13,10 +13,11 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
     );
     window.VideoUpload.startUpload(
       function(res) { // Upload Success
-          console.log(res);
+          console.log("DownloadURL = ", res.URL);
+          console.log("File Path = ", res.Location);
           var alertPopup = $ionicPopup.alert({
             title: 'Upload Success',
-            template: res,
+            template: res.Location,
           });
           alertPopup.then(function(res) {
             console.log('Thanks');
