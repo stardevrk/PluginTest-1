@@ -17,7 +17,7 @@
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/stardevrk/cordova-plugin-videoupload-filestack.git#9502e97d5a006e980de1d91a42230f803bb4d576",
+  "_resolved": "git+https://github.com/stardevrk/cordova-plugin-videoupload-filestack.git#3a91728020ecda12fcefab2a259c0f39c2c6698c",
   "_spec": "https://github.com/stardevrk/cordova-plugin-videoupload-filestack",
   "_where": "/Volumes/Work2/VideoUploaderPlugin/PluginTest-Filestack/PluginTest-1",
   "author": {
